@@ -1,0 +1,190 @@
+@CHARSET "ISO-8859-1";
+body {
+	background-color: white;
+	font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #4d4d4d;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+
+.top_nav {
+	margin-left: 230px;
+	padding-top: 25px;
+	float: right !important;
+	margin: 0;
+	width: 82%;
+	float: right;
+	border-bottom: 1px solid;
+}
+
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #E7E7E7;
+	display: block;
+	transition: 0.3s
+}
+
+.sidenav a:hover,.offcanvas a:focus {
+	color: #f1f1f1;
+}
+
+*,*:before,*:after {
+	box-sizing: border-box;
+}
+
+
+	.sidenav {
+		padding-top: 5px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+
+
+.content_div {
+	border-style: groove;
+	background-color: #f1f1f1;
+	position: relative;
+	min-height: 1px;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 75%;
+	margin-top: 2%;
+}
+
+.inner_content_div {
+	background-color: white;
+	position: relative;
+	min-height: 1px;
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 0%;
+	padding-bottom: 40px;
+}
+
+.input_div {
+	position: relative;
+	min-height: 1px;
+	float: left;
+	padding-right: 50px;
+	padding-left: 10px;
+	width: 50%
+}
+
+.form-group {
+	margin-bottom: 10px;
+}
+
+.row {
+	margin-right: -10px;
+	margin-left: -10px;
+}
+
+.form-control {
+	border-radius: 0;
+	width: 100%;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom:1px solid #ccc;
+    margin-top: 10px;
+}
+
+input {
+	font-family: inherit;
+	margin: 0;
+	font: inherit;
+	
+}
+
+.text-center {
+	text-align: center;
+	border-left-style: dashed;
+	border-color: lightgray;
+	height: 50%;
+	 padding-bottom: 45px;
+}
+
+.btn {
+	border-radius: 4px;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	touch-action: manipulation;
+	cursor: pointer;
+	border: 15px solid transparent;
+	width: 50%;
+	margin-left: 5%;
+}
+
+.buttons,button,.btn {
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #337ab7;
+	
+}
+
+.muskSpan{
+	font-size: larger;
+	font-color:white;
+	font-weight: 400;
+	font-size: 22px;
+	color: #ECF0F1 !important;
+	float: left; 
+	padding-left: 75px;
+	padding-top: 10px;
+	background-color:#404040 !important;
+	padding-right: 123px;
+    padding-bottom: 19px;
+    margin-top: -5px;
+}
+.adminDiv{
+    margin-left: 25px;
+    margin-right: 50px;
+    margin-bottom: 30px; 
+    margin-top: 75px; 
+    width: 140px; 
+    height: 80px;
+    background-color: white;
+}
+.spanContent{
+             margin-left: 10px;
+             margin-bottom: 20px;
+             font-size:initial;
+}
+
+.muskDiv{
+	margin-left: 0px; 
+	margin-right: 0px;
+}
